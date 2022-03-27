@@ -8,6 +8,7 @@ body{
 
 .hero-bg{
     background-image: url('./images/bg1.jpg');
+    background-size: 100%;
     color: white;
     text-align: center;
     padding: 4em 0;
@@ -58,4 +59,29 @@ h1 span::before{
     background-color: white;
     margin: 2em --1em 0;
     padding: 2em;
+    color: orange;
+}
+
+.form-container p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+label{
+    display: block;
+}
+
+#city{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid burlywood;
+}
+
+#btnFind{
+    width: 100%;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
 }
